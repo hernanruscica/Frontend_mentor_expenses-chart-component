@@ -1,3 +1,5 @@
+<a href="https://hernanruscica.github.io/Frontend_mentor_expenses-chart-component/" target = "_blank">Live Demo</a>
+
 # Frontend Mentor - Expenses chart component
 
 ![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)
