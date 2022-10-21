@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+  <article class="expenses">
+    <section class="expenses__balance">
+      <div class="expenses__balance__header">
+        <p class="expenses__balance__header__p">My balance</p>
+        <p class="expenses__balance__header__p bigger-text" id="balance-total">$921.48</p>
+      </div>
+      <div class="expenses__balance__logo">
+        <img src="images/logo.svg" alt="generic brand logo" class="expenses__balance__logo__img">
+      </div>
+    </section>
+
+    <section class="expenses__chart">
+      <header class="expenses__chart__header">
+        <h2 class="expenses__chart__header__title">
+          Spending - Last 7 days
+        </h2>
+      </header>
+      <main class="expenses__chart__main">
+        <div class="expenses__chart__main__day">
+          <div class="expenses__chart__main__day__bar"></div>
+          <p class="expenses__chart__main__day__name">mon</p>
+        </div>
+        <div class="expenses__chart__main__day">
+          <div class="expenses__chart__main__day__bar"></div>
+          <p class="expenses__chart__main__day__name">tue</p>
+        </div>
+        <div class="expenses__chart__main__day">
+          <div class="expenses__chart__main__day__bar larger"></div>
+          <p class="expenses__chart__main__day__name">wed</p>
+        </div>
+        <div class="expenses__chart__main__day">
+          <div class="expenses__chart__main__day__bar"></div>
+          <p class="expenses__chart__main__day__name">thu</p>
+        </div>
+        <div class="expenses__chart__main__day">
+          <div class="expenses__chart__main__day__bar"></div>
+          <p class="expenses__chart__main__day__name">fri</p>
+        </div>
+        <div class="expenses__chart__main__day">
+          <div class="expenses__chart__main__day__bar"></div>
+          <p class="expenses__chart__main__day__name">sat</p>
+        </div>
+        <div class="expenses__chart__main__day">
+          <div class="expenses__chart__main__day__bar"></div>
+          <p class="expenses__chart__main__day__name">sun</p>
+        </div>
+      </main>
+      <div class="expenses__chart__resume">
+        <div class="expenses__chart__resume__left">
+          <p class="expenses__chart__resume__left__p">
+            Total this month 
+          </p>
+          <p class="expenses__chart__resume__left__p bigger-text dark-brown" id="month-total">
+            $478.33
+          </p>           
+        </div>
+        <div class="expenses__chart__resume__right">
+          <p class="expenses__chart__resume__right__p dark-brown">
+            +2.4%
+          </p>
+          <p class="expenses__chart__resume__right__p" id="month-total">
+            from last month
+          </p>           
+        </div>
+      </div>
+    </section>
+  </article>  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt/hub/expenses-chart-component-0jWu6vkLMv" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/hernanruscica">Cesar Hernan Ruscica</a>.
+    </div>    
+  </footer>
+  
+</body>
+</html>

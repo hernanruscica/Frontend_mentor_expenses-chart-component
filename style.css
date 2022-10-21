@@ -1,0 +1,155 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Soft-red: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+
+    --Dark-brown: hsl(25, 47%, 15%);
+    --Medium-brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --Very-pale-orange: hsl(33, 100%, 98%);
+    --fs-body: 18px;
+}
+
+body{
+    background-color: var(--Cream);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: var(--fs-body);
+}
+
+.expenses{
+    width: 92vw;
+    height: 90vh;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.expenses__balance{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--Soft-red);
+    margin-top: 4em;
+    border-radius: 10px;
+    padding: 1.2em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.expenses__balance__header__p{
+    font-size: 0.8em;
+    font-weight: 400;    
+}
+
+.expenses__balance__header__p + .expenses__balance__header__p {
+    margin-top: 0.5em;
+}
+
+
+.expenses__balance__logo__img{
+    width: 60px;
+}
+
+.expenses__chart{
+    padding: 1.6em 1.4em;
+    margin-top: 1em;
+    background-color: var(--Very-pale-orange);
+    border-radius: 10px;
+}
+
+.expenses__chart__header__title{
+    color: var(--Dark-brown);
+    font-size: 1.2em;
+}
+
+
+
+.expenses__chart__main{
+    height: 28vh;
+    padding: 1.5em 0;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    border-bottom: solid;
+    border-color: var(--Cream);
+    border-width: 2px;
+    
+}
+
+.expenses__chart__main__day{    
+    width: 12%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.expenses__chart__main__day__bar{
+    height: 7%;
+    background-color: var(--Soft-red);
+    border-radius: 3px;
+}
+
+.expenses__chart__main__day__name{
+    color: var(--Medium-brown);
+    font-size: 0.6em;
+    margin-top: 1.5em;
+}
+
+
+.expenses__chart__resume{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.expenses__chart__resume__left__p,
+.expenses__chart__resume__right__p{
+    font-size: 0.8em;
+    color: var(--Medium-brown);
+    font-weight: 700;    
+}
+
+.expenses__chart__resume__left__p + .expenses__chart__resume__left__p {
+    margin-top: 0.4em;
+}
+
+.expenses__chart__resume__right__p{
+    text-align: right;
+}
+
+.expenses__chart__resume__right__p + .expenses__chart__resume__right__p {
+    margin-top: 0.2em;
+}
+
+.larger{
+    background-color: var(--Cyan);
+}
+
+.bigger-text{
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+.dark-brown {
+    color: var(--Dark-brown);
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
