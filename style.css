@@ -43,8 +43,6 @@ body{
     align-items: center;
 }
 
-
-
 .expenses__balance__header__p{
     font-size: 0.8em;
     font-weight: 400;    
@@ -53,7 +51,6 @@ body{
 .expenses__balance__header__p + .expenses__balance__header__p {
     margin-top: 0.5em;
 }
-
 
 .expenses__balance__logo__img{
     width: 60px;
@@ -71,12 +68,10 @@ body{
     font-size: 1.2em;
 }
 
-
-
-.expenses__chart__main{
-    height: 28vh;
-    padding: 1.5em 0;
-    margin-bottom: 1em;
+.expenses__chart__main{    
+    
+    padding: 2.8em 0 1.4em 0;
+    margin-bottom: 1.5em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -88,17 +83,36 @@ body{
 }
 
 .expenses__chart__main__day{    
-    width: 12%;    
+    width: 16%;   
+    height: 300px; 
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
     justify-content: flex-end;
     text-align: center;
 }
 
+.expenses__chart__main__day__label{
+    height: 2.4em;
+    background-color: var(--Dark-brown);
+    color: #fff;
+    font-size: 0.6em;
+    margin-bottom: 0.5em;
+    padding: 0.7em 0.8em ;    
+    border-radius: 5px;
+}
+
 .expenses__chart__main__day__bar{
+    width: 70%;
     height: 7%;
+    align-self: center;
     background-color: var(--Soft-red);
     border-radius: 3px;
+    cursor: pointer;
+}
+
+.expenses__chart__main__day__bar:hover{
+   opacity: 0.6;
+   
 }
 
 .expenses__chart__main__day__name{
@@ -137,6 +151,7 @@ body{
 
 .larger{
     background-color: var(--Cyan);
+   
 }
 
 .bigger-text{
@@ -148,8 +163,8 @@ body{
     color: var(--Dark-brown);
 }
 
-
-
-
+.hide {    
+    visibility: hidden;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
