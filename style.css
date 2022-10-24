@@ -83,7 +83,7 @@ body{
 }
 
 .expenses__chart__main__day{    
-    width: 16%;   
+    width: 14%;   
     height: 300px; 
     display: flex;
     flex-direction: column;    
