@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/hernanruscica/Frontend_mentor_expenses-chart-component)
-- Live Site URL: [Add live site URL here](https://hernanruscica.github.io/Frontend_mentor_expenses-chart-component/)
+- Solution URL: (https://github.com/hernanruscica/Frontend_mentor_expenses-chart-component)
+- Live Site URL: (https://hernanruscica.github.io/Frontend_mentor_expenses-chart-component/)
 
 ## My process
 
